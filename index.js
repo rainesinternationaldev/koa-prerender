@@ -69,6 +69,7 @@ var extensionsToIgnore = [
 
 var DEFAULT_PRERENDER = 'http://service.prerender.io/';
 
+console.log('INITIALIZING PRERENDER')
 
 /*
  * Should pre-render?
