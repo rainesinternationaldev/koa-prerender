@@ -164,6 +164,12 @@ module.exports = function preRenderMiddleware (options) {
         headers: headers,
         gzip: true
       });
+      
+      console.log('some settings', {
+        url: preRenderUrl,
+        headers: headers,
+        gzip: true
+      })
 
       body = response[1] || '';
 
